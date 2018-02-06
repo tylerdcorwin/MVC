@@ -1,0 +1,22 @@
+﻿@model InClassWork.ViewModels.Home.CarListViewModel
+
+@{
+    ViewBag.Title = "CarsList";
+}
+
+<h2>CarsList</h2>
+
+@Html.ListBox("carsList", Model.CarsList)
+
+<h2> Fastest Car </h2>
+<dl>
+    <dt>ID</dt>
+    <dd>@Model.FastestCar.Car_ID</dd>
+
+    <dt>Model</dt>
+    <dd>@Model.FastestCar.Model</dd>
+
+    <dt>Max Speed</dt>
+    <dd>@Model.FastestCar.MaxSpeed</dd>
+</dl>
+
