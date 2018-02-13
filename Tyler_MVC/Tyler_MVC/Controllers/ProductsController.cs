@@ -16,5 +16,13 @@ namespace Tyler_MVC.Controllers
             ViewBag.LanguagesList = languages;
             return View();
         }
+
+        //create a list of providers in order to see what movies/shows are available on which service provider
+        //public ActionResult Providers()
+        //{
+        //    string[] providers = new string[3] { "Netflix", "Hulu", "Amazon" };
+        //    ViewBag.
+        //    return View();
+        //}
     }
 }

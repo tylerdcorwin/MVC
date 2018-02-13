@@ -18,8 +18,12 @@ namespace Tyler_MVC
             //test routes
             routes.MapRoute("MovieLibrary", "MovieLibrary", new { controller = "Home", action = "MovieLibrary" });
             routes.MapRoute("ShowLibrary", "ShowLibrary", new { controller = "Home", action = "ShowLibrary" });
-
+            
+            //Inclass
             routes.MapRoute("Languages", "Index", new { controller = "Products", action = "Index" });
+
+            //Providers
+            routes.MapRoute("Netflix", "Netflix", new { controller = "Providers", action = "Netflix" });
 
             routes.MapRoute(
                 name: "Default",
