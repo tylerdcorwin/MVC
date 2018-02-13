@@ -1,0 +1,37 @@
+﻿@model List<InClassWork.Models.Car>
+
+@{
+    ViewBag.Title = "ListOfCars";
+}
+
+<h2>ListOfCars</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>This Week's Deals</h2>
+        <p>
+            Welcome to our showroom. Treat yourself to a safe new vehicle.
+        </p>
+    </div>
+    <div class="col-md-8">
+
+        @using (Html.BeginForm("ListofCars", "Cars"))
+        {
+            @Html.TextBox("searchCriteria")
+            <input type ="submit" value ="Find Cars" />
+        }
+        <h2>THis weeks deals:</h2>
+        <table class="table-striped table-bordered table-responsive">
+            @*Loop through each car sent as a list and display basic information*@
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>@car.Model</td>
+                    <td>@car.MaxSpeed</td>
+                    <td>@Html.ActionLink("Details", "Details", new { id = car.Car_ID })</td>
+                </tr>
+                }
+        </table> 
+    </div>
+</div>
+

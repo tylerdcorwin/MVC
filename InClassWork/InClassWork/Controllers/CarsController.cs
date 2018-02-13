@@ -20,5 +20,29 @@ namespace InClassWork.Controllers
 
             return View(viewModel);
         }
+
+        public ActionResult ListOfCars(string searchCriteria)
+        {
+            var factory = new CarFactory();
+            IQueryable<Car> cars = factory.Cars.OrderBy(p => p.Model);
+
+            if (searchCriteria != null)
+            {
+                cars = cars.Where(p => p.Model.Contains(searchCriteria));
+            }
+
+            var carlist = cars.Take(10).ToList();
+            //var cars = new CarFactory().Cars.ToList();
+            return View(carlist);
+        }
+
+        public ActionResult Details(int id)
+        {
+            var factory = new CarFactory();
+            Car found = factory.Cars.Where(p => p.Car_ID == id).FirstOrDefault();
+
+            return View(found);
+        }
     }
+
 }
