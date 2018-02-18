@@ -37,3 +37,17 @@ textarea {
     padding-bottom: 24px;
     color: #fff;
 }
+
+.netflix-hero{
+    width: 100%;
+    padding-top: 25px;
+}
+
+.hulu-hero{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.amazon-hero{
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+﻿@model Tyler_MVC.ViewModels.Home.NetflixIndexViewModel
+    @{ 
+    ViewBag.Title = "NetflixList";
+}
+
+<h2>NetflixList</h2>
+
+@Html.ListBox("netflixList", Model.NetflixList)
+
+<h2> Title </h2>
+<dl>
+    <dt>ID</dt>
+    <dd>@Model.allList.Title</dd>
+    
+</dl>
