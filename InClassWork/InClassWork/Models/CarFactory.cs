@@ -21,8 +21,9 @@ namespace InClassWork.Models
         protected override void Seed(CarFactory context) //Method to seed the tables with sample data
         {
             {
-                context.Cars.Add(new Models.Car() { Model = "Rabbit", MaxSpeed = 300 }); //add quick car
-                context.Cars.Add(new Car() { Model = "Turtle", MaxSpeed = 150 }); //add an avg. car
+                
+                context.Cars.Add(new Car() { Model = "Turtle", MaxSpeed = 150, ImageName = "bmw" }); //add an avg. car
+                context.Cars.Add(new Car() { Model = "Fox", MaxSpeed = 220, ImageName = "benz" });
             }
         }
     }

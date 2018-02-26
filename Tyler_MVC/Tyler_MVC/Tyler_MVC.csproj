@@ -172,6 +172,12 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\amazon.png" />
+    <Content Include="Content\Images\Emoji.jpg" />
+    <Content Include="Content\Images\hulu.jpg" />
+    <Content Include="Content\Images\jumbotron.png" />
+    <Content Include="Content\Images\netflix.jpg" />
+    <Content Include="Content\Images\Punisher.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
