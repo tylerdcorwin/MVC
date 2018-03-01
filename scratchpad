@@ -1,0 +1,61 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1></h1>
+    <p class="lead">The ultimate show selector</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="showContainer">
+            <div class="provider">
+                <p>Netflix</p>
+                <input id="Netflix" type="checkbox" />
+            </div>
+            <div class="provider">
+                <p>Hulu</p>
+                <input id="Hulu" type="checkbox" />
+            </div>
+            <div class="provider">
+                <p>Amazon</p>
+                <input id="Amazon" type="checkbox" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+
+        @*<h2>Getting started</h2>
+        <p>
+            What2Watch provides its users with the ultimate show selection expierence.
+            We reccomend the best shows that match your overall interestes and allow you to
+            watch them from your Netflix, Hulu, or Amazon Video accounts in one click!
+        </p>*@
+        @*                          Display,    Page,       Controller                       *@
+       @* <a href='@Url.Action("NetflixList", "Netflix")'><img src="~/Images/netflix.jpg" class="netflix-hero" /></a>*@
+
+        @*<p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>*@
+    </div>
+    <div class="col-md-4">
+        @*<h2>View our libraries</h2>
+        <p>
+            View our library to see all of the hottest new shows on each network!
+            See show descriptions or trailers with just one click!
+            LAB2: All shows can be viewed by tomorrow at @DateTime.Now.AddHours(12)
+    </p>
+    <p><a class="btn btn-default" @Html.ActionLink("MovieLibrary", "MovieLibrary", "Home") </a></p>
+    <p><a class="btn btn-default" @Html.ActionLink("ShowLibrary", "ShowLibrary", "Home")</a></p>*@
+        <a href="#"><img src="~/Images/hulu.jpg" class="hulu-hero" /></a>
+    </div>
+    <div class="col-md-4">
+        @*<h2>Users</h2>
+        <p>All of What2Watch's users are can access Netflix, Hulu, and Amazon Video libraries.
+            With one login</p>
+        <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p>*@
+        <a href="#"><img src="~/Images/amazon.png" class="amazon-hero" /></a>
+    </div>
+</div>

@@ -3,13 +3,21 @@
     ViewBag.Title = "NetflixList";
 }
 
-<h2>NetflixList</h2>
+<div class="container">
+    <div class="hero">
+        <h2>Netflix Program List</h2>
+        <img src="~/Images/netflix.jpg" class="heroImg" />
+    </div>
 
-@Html.ListBox("netflixList", Model.NetflixList)
+    <div class="list-body">
+        @*listBox     ID=netflixList*@
+        @Html.ListBox("netflixList", Model.NetflixList)
+        <h2> Title </h2>
+        @*Info*@
+        <dl class="NetflixProgramsList">
+            <dt>ID</dt>
+            <dd>@Model.allList.Title</dd>
+        </dl>
+    </div>
 
-<h2> Title </h2>
-<dl>
-    <dt>ID</dt>
-    <dd>@Model.allList.Title</dd>
-    
-</dl>
+</div>

@@ -8,13 +8,14 @@ using System.Web.Mvc;
 namespace Tyler_MVC.Controllers
 {
     public class HomeController : Controller
-    {
-
+    {               
         public ActionResult ShowLanguages()
         {
             var viewModel = new ViewModels.Home.ShowLanguagesViewModel(CultureInfo.GetCultures(CultureTypes.SpecificCultures));
             return View(viewModel);
         }
+        
+
         public ActionResult Index()
         {
             return View();

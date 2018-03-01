@@ -47,11 +47,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -154,11 +154,14 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HuluController.cs" />
     <Compile Include="Controllers\NetflixController.cs" />
-    <Compile Include="Migrations\201802182159166_newDb.cs" />
-    <Compile Include="Migrations\201802182159166_newDb.Designer.cs">
-      <DependentUpon>201802182159166_newDb.cs</DependentUpon>
+    <Compile Include="Migrations\201803012022493_db1.cs" />
+    <Compile Include="Migrations\201803012022493_db1.Designer.cs">
+      <DependentUpon>201803012022493_db1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Hulu.cs" />
+    <Compile Include="Models\HuluFactory.cs" />
     <Compile Include="ViewModels\Home\NetflixIndexViewModel.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -183,6 +186,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\amazon.png" />
+    <Content Include="Images\blankPoster.jpg" />
     <Content Include="Images\Emoji.jpg" />
     <Content Include="Images\hulu.jpg" />
     <Content Include="Images\jumbotron.png" />
@@ -246,8 +250,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802182159166_newDb.resx">
-      <DependentUpon>201802182159166_newDb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201803012022493_db1.resx">
+      <DependentUpon>201803012022493_db1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -29,6 +29,7 @@ textarea {
     background-position-y: center;
     background-position-x: center;
     background-color: #01A0E2;
+    padding-top: initial !important;
 }
 
 .lead{
@@ -45,9 +46,47 @@ textarea {
 
 .hulu-hero{
     width: 100%;
-    padding-top: 15px;
+      padding-top: 15px;
 }
 
 .amazon-hero{
     width: 100%;
+}
+
+.showContainer {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.provider {
+    display: flex !important;
+    padding-left: 15px !important;
+}
+    .provider p {
+        padding-right: 15px !important;
+    }
+
+.con-left{
+    display: inline-grid;
+    float: left;
+}
+
+.selectors{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.con-right{
+    display: flex;
+}
+
+.movie-poster {
+    width: 45%;
+    padding-right:15px;
+}
+
+.poster{
+    width: 100%;
+    position: relative;
 }

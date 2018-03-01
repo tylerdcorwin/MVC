@@ -24,17 +24,23 @@ namespace Tyler_MVC.Models
                 context.Netflix.Add(new Netflix()
                 {
                     Title = "The Punisher",
+                    Genre = "Action",
                     Image = "~/Images/Punisher.jpg",
                     Rating = "R",
+                    Description = "Action packed movie starring some dude" +
+                    " with many explosions and stuffs",
                     Movie = true
                 });
-                context.Netflix.Add(new Models.Netflix()
-                {
-                    Title = "The Emoji Movie",
-                    Image = "~/Images/Emoji.jpg",
-                    Rating = "PG",
-                    Movie = true
-                });
+                //context.Netflix.Add(new Netflix() //Models.Netflix
+                //{
+                //    Title = "The Emoji Movie",
+                //    Genre = "Animation",
+                //    Image = "~/Images/Emoji.jpg",
+                //    Rating = "PG",
+                //    Description = "Funny animated movie about phone emoji's" +
+                //    " much sillyness such wonder",
+                //    Movie = true
+                //});
             }
         }
     }

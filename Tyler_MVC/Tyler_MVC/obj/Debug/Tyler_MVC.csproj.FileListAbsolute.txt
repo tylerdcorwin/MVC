@@ -126,8 +126,6 @@ C:\Users\Tyler Corwin\Desktop\MVC\Tyler_MVC\Tyler_MVC\bin\EntityFramework.dll
 C:\Users\Tyler Corwin\Desktop\MVC\Tyler_MVC\Tyler_MVC\bin\EntityFramework.SqlServer.dll
 C:\Users\Tyler Corwin\Desktop\MVC\Tyler_MVC\Tyler_MVC\bin\EntityFramework.xml
 C:\Users\Tyler Corwin\Desktop\MVC\Tyler_MVC\Tyler_MVC\bin\EntityFramework.SqlServer.xml
-C:\Users\Tyler Corwin\Desktop\MVC\Tyler_MVC\Tyler_MVC\obj\Debug\Tyler_MVC.Migrations.newDb.resources
-C:\Users\Tyler Corwin\Desktop\MVC\Tyler_MVC\Tyler_MVC\obj\Debug\Tyler_MVC.csproj.GenerateResource.Cache
 C:\Users\tyler\Desktop\MVC\Tyler_MVC\Tyler_MVC\bin\ApplicationInsights.config
 C:\Users\tyler\Desktop\MVC\Tyler_MVC\Tyler_MVC\bin\Tyler_MVC.dll.config
 C:\Users\tyler\Desktop\MVC\Tyler_MVC\Tyler_MVC\bin\Tyler_MVC.dll
@@ -176,3 +174,5 @@ C:\Users\tyler\Desktop\MVC\Tyler_MVC\Tyler_MVC\obj\Debug\Tyler_MVC.csproj.Genera
 C:\Users\tyler\Desktop\MVC\Tyler_MVC\Tyler_MVC\obj\Debug\Tyler_MVC.csproj.CoreCompileInputs.cache
 C:\Users\tyler\Desktop\MVC\Tyler_MVC\Tyler_MVC\obj\Debug\Tyler_MVC.dll
 C:\Users\tyler\Desktop\MVC\Tyler_MVC\Tyler_MVC\obj\Debug\Tyler_MVC.pdb
+C:\Users\Tyler Corwin\Desktop\MVC\Tyler_MVC\Tyler_MVC\obj\Debug\Tyler_MVC.Migrations.db1.resources
+C:\Users\Tyler Corwin\Desktop\MVC\Tyler_MVC\Tyler_MVC\obj\Debug\Tyler_MVC.csproj.GenerateResource.Cache
