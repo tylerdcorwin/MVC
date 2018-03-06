@@ -159,7 +159,6 @@ C:\Users\tyler\Desktop\MVC\InClassWork\InClassWork\bin\Microsoft.Owin.Security.O
 C:\Users\tyler\Desktop\MVC\InClassWork\InClassWork\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\tyler\Desktop\MVC\InClassWork\InClassWork\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\tyler\Desktop\MVC\InClassWork\InClassWork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\tyler\Desktop\MVC\InClassWork\InClassWork\obj\Debug\InClassWork.csprojResolveAssemblyReference.cache
 C:\Users\tyler\Desktop\MVC\InClassWork\InClassWork\obj\Debug\InClassWork.csproj.CoreCompileInputs.cache
 C:\Users\tyler\Desktop\MVC\InClassWork\InClassWork\obj\Debug\InClassWork.dll
 C:\Users\tyler\Desktop\MVC\InClassWork\InClassWork\obj\Debug\InClassWork.pdb

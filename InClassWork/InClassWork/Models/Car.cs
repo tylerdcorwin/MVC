@@ -20,5 +20,9 @@ namespace InClassWork.Models
         public double MaxSpeed { get; set; } //Max Speed
 
         public string ImageName { get; set; } //Image
+
+        public int Manufacturer_ID { get; set; }
+
+        public virtual Manufactorer Manufactorer { get ;set;}
     }
 }
